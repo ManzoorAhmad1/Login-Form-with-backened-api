@@ -25,7 +25,7 @@ const SignUpForm = (props) => {
     }
 
     return (
-        <div className={loginForm.loginForm}>
+        <div className={loginForm.signUpForm}>
             {/* UserName Input with validation//////////// */}
             {!nameValid ?
                 <h1 style={{ color: "red", margin: "1rem 0" }}>Enter a valid Name</h1> : <h1>Enter Name</h1>}
