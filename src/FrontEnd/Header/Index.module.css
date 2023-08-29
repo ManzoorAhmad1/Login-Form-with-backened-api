@@ -18,3 +18,19 @@
 .header h1 a {
     text-decoration: none;
 }
+
+.header button {
+    height: 3rem;
+    width: 6rem;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.header button:hover {
+    background-color: blue;
+    color: white;
+    transition: 1.5s;
+}
