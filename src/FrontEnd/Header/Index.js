@@ -1,9 +1,9 @@
 import header from "./Index.module.css"
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div className={header.header}>
-            <h1><a href="/">Sign Up</a></h1>
+            <h1><button onClick={props.showSignUp} href="/">Sign Up</button></h1>
         </div>
     )
 }
